@@ -8,6 +8,7 @@ The baby names analyzer is used to demonstrate the abilities of performance tuni
 - provides count of names beginning with a certain prefix
 
 ## Tools Used
+- eslint
 
 ## Miscellaneous
 ### Data
