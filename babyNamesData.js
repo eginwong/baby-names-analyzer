@@ -1,3 +1,10 @@
+/** INSTRUCTIONS:
+ * Use this file as a starter to make your performance changes.
+ * Before you begin, remember to take a baseline at this point in the implementation.
+ *
+ * Good luck!
+ */
+
 const fs = require('fs');
 
 const retrieveJSONData = () => {
