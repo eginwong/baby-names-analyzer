@@ -14,6 +14,7 @@
     "parserOptions": {
         "ecmaVersion": 2018
     },
+    "ignorePatterns": ["data-structure/", "node_modules/"],
     "rules": {
     }
 }
