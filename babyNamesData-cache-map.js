@@ -16,7 +16,7 @@ const filter = (req, res) => {
     .startsWith(query));
 
   const count = filteredResults.reduce(
-    (j, currentVal) => currentVal + parseInt(j[columns.COUNT], 10), 0,
+    (acc, item) => acc + parseInt(item[columns.COUNT], 10), 0,
   );
 
   res.send({
